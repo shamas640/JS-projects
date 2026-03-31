@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Book your Flight</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div>
+  <a href="#home">Home</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Reservations</a>
+</div>
+
+<div id="home">
+  <h1>Book your Flight</h1>
+</div>
+
+<section id="gallery">
+  <h1>Gallery</h1>
+
+  <div class="row">
+
+    <div class="column">
+      <img src="image/City/Catania.jpg" style="width:400px;height:200px;" onclick="openLightbox(this)">
+      <p>Catania, book your flight today</p>
+    </div>
+
+    <div class="column">
+      <img src="image/City/Islamabad.jpg" style="width:400px;height:200px;" onclick="openLightbox(this)">
+      <p>Islamabad, book your flight today</p>
+    </div>
+
+    <div class="column">
+      <img src="image/City/Kiruna.jpg" style="width:400px;height:200px;" onclick="openLightbox(this)">
+      <p>Kiruna, book your flight today</p>
+    </div>
+
+    <div class="column">
+      <img src="image/City/Roma.jpg" style="width:400px;height:200px;" onclick="openLightbox(this)">
+      <p>Roma, book your flight today</p>
+    </div>
+
+    <div class="column">
+      <img src="image/City/Sardinia.jpg" style="width:400px;height:200px;" onclick="openLightbox(this)">
+      <p>Sardinia, book your flight today</p>
+    </div>
+
+    <div class="column">
+      <img src="image/City/Stockholm.png" style="width:400px;height:200px;" onclick="openLightbox(this)">
+      <p>Stockholm, book your flight today</p>
+    </div>
+
+    <div class="column">
+      <img src="image/City/Tokyo.jpg" style="width:400px;height:200px;" onclick="openLightbox(this)">
+      <p>Tokyo, book your flight today</p>
+    </div>
+
+    <div class="column">
+      <img src="image/City/Torino.jpg" style="width:400px;height:200px;" onclick="openLightbox(this)">
+      <p>Torino, book your flight today</p>
+    </div>
+
+    <div class="column">
+      <img src="image/City/Zurich.jpg" style="width:400px;height:200px;" onclick="openLightbox(this)">
+      <p>Zurich, book your flight today</p>
+    </div>
+
+  </div>
+</section>
+
+<div id="lightbox">
+  <span onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img">
+</div>
+
+<section id="contact">
+  <h1>Reservations</h1>
+
+  <h2>Your adventure is just around the world</h2>
+  <p>Please provide your contact information.</p>
+
+  <form>
+    <input type="text" placeholder="First Name"><br>
+    <input type="text" placeholder="Last Name"><br>
+    <input type="text" placeholder="Email Address"><br>
+    <input type="text" placeholder="Phone Number"><br>
+
+    <label>Terms and conditions</label><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</section>
+
+<script src="JS/one_page_website.js"></script>
+
+</body>
+</html>
